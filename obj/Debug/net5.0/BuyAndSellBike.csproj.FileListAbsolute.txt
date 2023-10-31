@@ -1,0 +1,358 @@
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\appsettings.json
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\libman.json
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\BuyAndSellBike.exe
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\BuyAndSellBike.deps.json
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\BuyAndSellBike.runtimeconfig.json
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\BuyAndSellBike.runtimeconfig.dev.json
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\BuyAndSellBike.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\BuyAndSellBike.pdb
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\BuyAndSellBike.Views.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\BuyAndSellBike.Views.pdb
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Humanizer.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.AssemblyInfoInputs.cache
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.AssemblyInfo.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.csproj.CoreCompileInputs.cache
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.RazorAssemblyInfo.cache
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.RazorAssemblyInfo.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\staticwebassets\BuyAndSellBike.StaticWebAssets.Manifest.cache
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\scopedcss\bundle\BuyAndSellBike.styles.css
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.TagHelpers.input.cache
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.TagHelpers.output.cache
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.RazorCoreGenerate.cache
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Make\Index.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.RazorTargetAssemblyInfo.cache
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.RazorTargetAssemblyInfo.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.Views.pdb
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.csproj.CopyComplete
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\ref\BuyAndSellBike.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.pdb
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.genruntimeconfig.cache
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.csproj.AssemblyReference.cache
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\ref\BuyAndSellBike.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\staticwebassets\BuyAndSellBike.StaticWebAssets.xml
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Make\Create.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Make\Edit.cshtml.g.cs
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\appsettings.Development.json
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\appsettings.json
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\libman.json
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\BuyAndSellBike.exe
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\BuyAndSellBike.deps.json
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\BuyAndSellBike.runtimeconfig.json
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\BuyAndSellBike.runtimeconfig.dev.json
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\BuyAndSellBike.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\ref\BuyAndSellBike.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\BuyAndSellBike.pdb
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\BuyAndSellBike.Views.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\BuyAndSellBike.Views.pdb
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Humanizer.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\System.Composition.Convention.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\System.Composition.Hosting.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\System.Composition.Runtime.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\System.Composition.TypedParts.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\System.Runtime.Caching.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.csproj.AssemblyReference.cache
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.GeneratedMSBuildEditorConfig.editorconfig
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.AssemblyInfoInputs.cache
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.AssemblyInfo.cs
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.csproj.CoreCompileInputs.cache
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.MvcApplicationPartsAssemblyInfo.cache
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.RazorAssemblyInfo.cache
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.RazorAssemblyInfo.cs
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\staticwebassets\BuyAndSellBike.StaticWebAssets.Manifest.cache
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\staticwebassets\BuyAndSellBike.StaticWebAssets.xml
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\scopedcss\bundle\BuyAndSellBike.styles.css
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.TagHelpers.input.cache
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.TagHelpers.output.cache
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.RazorCoreGenerate.cache
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Make\Create.cshtml.g.cs
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Make\Edit.cshtml.g.cs
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Make\Index.cshtml.g.cs
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.RazorTargetAssemblyInfo.cache
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.RazorTargetAssemblyInfo.cs
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.Views.pdb
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.csproj.CopyComplete
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.dll
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\ref\BuyAndSellBike.dll
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.pdb
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.genruntimeconfig.cache
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Model\Index.cshtml.g.cs
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Model\Create.cshtml.g.cs
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Model\Edit.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Model\Create.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Model\Edit.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Model\Index.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Shared\_TableButtonPartial.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\BuyAndSellBike.StaticWebAssets.xml
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\BuyAndSellBike.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Lockout.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\LoginWithRecoveryCode.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\Disable2fa.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\ExternalLogins.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\GenerateRecoveryCodes.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\ShowRecoveryCodes.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ResendEmailConfirmation.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
