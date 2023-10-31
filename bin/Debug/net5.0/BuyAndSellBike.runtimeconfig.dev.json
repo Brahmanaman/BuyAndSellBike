@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\TrafikSol\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\TrafikSol\\.nuget\\packages",
+      "C:\\Users\\Aman Sharma\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Aman Sharma\\.nuget\\packages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }

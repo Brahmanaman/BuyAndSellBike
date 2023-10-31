@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
+using BuyAndSellBike.Data;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -21,7 +22,7 @@ namespace BuyAndSellBike.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
-        private readonly RoleManager<IdentityUser> _roleManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
 
@@ -30,7 +31,7 @@ namespace BuyAndSellBike.Areas.Identity.Pages.Account
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
             IEmailSender emailSender,
-            RoleManager<IdentityUser> roleManager)
+            RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
@@ -49,6 +50,11 @@ namespace BuyAndSellBike.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
+            [Display(Name = "User Name")]
+            public string UserName { get; set; }
+
+
+            [Required]
             [EmailAddress]
             [Display(Name = "Email")]
             public string Email { get; set; }
@@ -56,6 +62,10 @@ namespace BuyAndSellBike.Areas.Identity.Pages.Account
             [Required]
             [Display(Name = "Phone Number")]
             public string PhoneNumber { get; set; }
+
+            [Required]
+            [Display(Name = "Office Phone Number")]
+            public string PhoneNumber2 { get; set; }
 
             [Required]
             [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
@@ -67,6 +77,7 @@ namespace BuyAndSellBike.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
+            public bool IsAdmin { get; set; }
         }
 
         public async Task OnGetAsync(string returnUrl = null)
@@ -81,10 +92,28 @@ namespace BuyAndSellBike.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = new IdentityUser { UserName = Input.Email, Email = Input.Email };
+                var user = new ApplicationUser { UserName = Input.UserName, Email = Input.Email,PhoneNumber = Input.PhoneNumber,PhoneNumber2 = Input.PhoneNumber2 };
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {
+                    //create user roles if not exist
+                    if(!await _roleManager.RoleExistsAsync("Admin")){
+                        await _roleManager.CreateAsync(new IdentityRole("Admin"));
+                    }
+                    if (!await _roleManager.RoleExistsAsync("Executive")){
+                        await _roleManager.CreateAsync(new IdentityRole("Executive"));
+                    }
+
+                    //assign user to role as per the check-box selection
+                    if (Input.IsAdmin)
+                    {
+                        await _userManager.AddToRoleAsync(user, "Admin");
+                    }
+                    else
+                    {
+                        await _userManager.AddToRoleAsync(user, "Executive");
+                    }
+
                     _logger.LogInformation("User created a new account with password.");
 
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
