@@ -133,8 +133,9 @@ namespace BuyAndSellBike.Areas.Identity.Pages.Account
                     }
                     else
                     {
-                        await _signInManager.SignInAsync(user, isPersistent: false);
-                        return LocalRedirect(returnUrl);
+                        //await _signInManager.SignInAsync(user, isPersistent: false);
+                        //return LocalRedirect(returnUrl);
+                        return RedirectToAction("Index");
                     }
                 }
                 foreach (var error in result.Errors)
