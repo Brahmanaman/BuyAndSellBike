@@ -1,13 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BuyAndSellBike.Data;
 using BuyAndSellBike.Models.ViewModel;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
+using System.Linq; 
 using BuyAndSellBike.Models;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BuyAndSellBike.Controllers
 {
+    [Authorize(Roles ="Admin,Executive")]
     public class ModelController : Controller
     {
         private readonly BuyAndSellBikeDbContext dbContext = null;

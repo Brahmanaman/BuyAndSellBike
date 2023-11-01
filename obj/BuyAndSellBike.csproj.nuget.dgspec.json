@@ -1,31 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TrafikSol\\Documents\\Aman\\BuyAndSellBike\\BuyAndSellBike.csproj": {}
+    "F:\\Code Playground\\BuyAndSellBike\\BuyAndSellBike.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TrafikSol\\Documents\\Aman\\BuyAndSellBike\\BuyAndSellBike.csproj": {
+    "F:\\Code Playground\\BuyAndSellBike\\BuyAndSellBike.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TrafikSol\\Documents\\Aman\\BuyAndSellBike\\BuyAndSellBike.csproj",
+        "projectUniqueName": "F:\\Code Playground\\BuyAndSellBike\\BuyAndSellBike.csproj",
         "projectName": "BuyAndSellBike",
-        "projectPath": "C:\\Users\\TrafikSol\\Documents\\Aman\\BuyAndSellBike\\BuyAndSellBike.csproj",
-        "packagesPath": "C:\\Users\\TrafikSol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TrafikSol\\Documents\\Aman\\BuyAndSellBike\\obj\\",
+        "projectPath": "F:\\Code Playground\\BuyAndSellBike\\BuyAndSellBike.csproj",
+        "packagesPath": "C:\\Users\\Aman Sharma\\.nuget\\packages\\",
+        "outputPath": "F:\\Code Playground\\BuyAndSellBike\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\TrafikSol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Users\\Aman Sharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -86,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
