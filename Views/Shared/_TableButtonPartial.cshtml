@@ -2,9 +2,9 @@
 
 <td class="text-end">
     <div class="btn-group" role="group">
-        <a class="btn btn-primary rounded-0" asp-controller="Make" asp-action="Edit" asp-route-id="@Model">Edit</a>
+        <a class="btn btn-primary rounded-0" asp-action="Edit" asp-route-id="@Model">Edit</a>
         <form method="post">
-            <input type="submit" asp-controller="Make" asp-action="Delete" class="btn btn-danger rounded-0" asp-route-id="@Model" value="Delete" />
+            <input type="submit" asp-action="Delete" class="btn btn-danger rounded-0" asp-route-id="@Model" value="Delete" />
         </form>
     </div>
 </td>
