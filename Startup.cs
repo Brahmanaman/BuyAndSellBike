@@ -26,6 +26,9 @@ namespace BuyAndSellBike
             services.AddDbContext<BuyAndSellBikeDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("myConn")));
             services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<BuyAndSellBikeDbContext>
               ().AddDefaultUI().AddDefaultTokenProviders();
+            
+            //this service added for dataMiration and data seeding
+            services.AddScoped<IDBInitializer, DBInitializer>();
             //services.Configure<IdentityOptions>(options =>
             //{
             //    options.Password.RequiredLength = 5;
@@ -40,7 +43,7 @@ namespace BuyAndSellBike
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IDBInitializer dBInitializer)
         {
             if (env.IsDevelopment())
             {
@@ -59,6 +62,7 @@ namespace BuyAndSellBike
             
             app.UseAuthentication();
             app.UseAuthorization();
+            dBInitializer.Initialize();
             
             app.UseEndpoints(endpoints =>
             {
