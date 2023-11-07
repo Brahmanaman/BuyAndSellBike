@@ -1,2 +1,3 @@
-*.vs,
-ScaffoldingReadMe
+.vs/
+*.vs
+ScaffoldingReadMe.txt

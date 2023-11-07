@@ -4,14 +4,16 @@ using BuyAndSellBike.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BuyAndSellBike.Migrations
 {
     [DbContext(typeof(BuyAndSellBikeDbContext))]
-    partial class BuyAndSellBikeDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231106165037_AddBike")]
+    partial class AddBike
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -70,19 +72,6 @@ namespace BuyAndSellBike.Migrations
                     b.HasIndex("MakeId");
 
                     b.ToTable("Bikes");
-                });
-
-            modelBuilder.Entity("BuyAndSellBike.Models.Currency", b =>
-                {
-                    b.Property<string>("ID")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("ID");
-
-                    b.ToTable("Currencies");
                 });
 
             modelBuilder.Entity("BuyAndSellBike.Models.Make", b =>
