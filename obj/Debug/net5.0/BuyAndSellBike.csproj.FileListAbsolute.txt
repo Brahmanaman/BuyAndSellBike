@@ -408,3 +408,5 @@ F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_V
 F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Shared\_TableButtonPartial.cshtml.g.cs
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Bike\Index.cshtml.g.cs
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Bike\Create.cshtml.g.cs

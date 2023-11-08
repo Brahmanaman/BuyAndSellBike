@@ -4,14 +4,16 @@ using BuyAndSellBike.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace BuyAndSellBike.Migrations
 {
     [DbContext(typeof(BuyAndSellBikeDbContext))]
-    partial class BuyAndSellBikeDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231107180023_AddingBikeModel")]
+    partial class AddingBikeModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

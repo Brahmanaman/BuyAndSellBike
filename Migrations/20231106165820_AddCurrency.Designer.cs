@@ -76,13 +76,13 @@ namespace BuyAndSellBike.Migrations
 
             modelBuilder.Entity("BuyAndSellBike.Models.Currency", b =>
                 {
-                    b.Property<string>("ID")
+                    b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("ID");
+                    b.HasKey("Id");
 
                     b.ToTable("Currencies");
                 });
