@@ -7422,30 +7422,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aman Sharma\\.nuget\\packages\\": {},
+    "C:\\Users\\TrafikSol\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Code Playground\\BuyAndSellBike\\BuyAndSellBike.csproj",
+      "projectUniqueName": "C:\\Users\\TrafikSol\\Documents\\Aman\\BuyAndSellBike\\BuyAndSellBike.csproj",
       "projectName": "BuyAndSellBike",
-      "projectPath": "F:\\Code Playground\\BuyAndSellBike\\BuyAndSellBike.csproj",
-      "packagesPath": "C:\\Users\\Aman Sharma\\.nuget\\packages\\",
-      "outputPath": "F:\\Code Playground\\BuyAndSellBike\\obj\\",
+      "projectPath": "C:\\Users\\TrafikSol\\Documents\\Aman\\BuyAndSellBike\\BuyAndSellBike.csproj",
+      "packagesPath": "C:\\Users\\TrafikSol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TrafikSol\\Documents\\Aman\\BuyAndSellBike\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Aman Sharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TrafikSol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\packages": {},
+        "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -7506,7 +7507,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
       }
     }
   }

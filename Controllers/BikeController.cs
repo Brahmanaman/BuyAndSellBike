@@ -9,19 +9,24 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Collections.Generic;
 
+using Microsoft.AspNetCore.Hosting;
+using System.IO;
+
 namespace BuyAndSellBike.Controllers
 {
     [Authorize(Roles = "Admin,Executive")]
     public class BikeController : Controller
     {
         private readonly BuyAndSellBikeDbContext dbContext = null;
+        private readonly IWebHostEnvironment Environment;
 
         [BindProperty]
         public BikeViewModel BikeVM { get; set; }
 
-        public BikeController(BuyAndSellBikeDbContext dbContext)
+        public BikeController(BuyAndSellBikeDbContext dbContext, IWebHostEnvironment Environment)
         {
             this.dbContext = dbContext;
+            this.Environment = Environment;
             BikeVM = new BikeViewModel()
             {
                 Makes = dbContext.Makes.ToList(),
@@ -49,7 +54,38 @@ namespace BuyAndSellBike.Controllers
             if (!ModelState.IsValid) return View(BikeVM);
             await dbContext.Bikes.AddAsync(BikeVM.Bike);
             await dbContext.SaveChangesAsync();
-            return RedirectToAction("Index");
+
+            //save bike logic
+            //Get bike id we have saved in database
+            var BikeId = BikeVM.Bike.Id;
+
+            //Get wwwrootpath to save the file on server
+            string wwwrootpath = Environment.WebRootPath;
+
+            //get the upload file
+            var files = HttpContext.Request.Form.Files;
+
+            var savedBike = dbContext.Bikes.Find(BikeId);
+
+            if(files.Count != 0)
+            {
+                var ImagePath = @"images\bike\";
+                var Extension = Path.GetExtension(files[0].FileName);
+                var RelativeImagePath = ImagePath + BikeId + Extension;
+                var AbsImagePath = Path.Combine(wwwrootpath, RelativeImagePath);
+
+                //upload the file on server
+                using (var fileStream = new FileStream(AbsImagePath, FileMode.Create))
+                {
+                    files[0].CopyTo(fileStream);
+                };
+
+                //set image path to database
+                savedBike.ImagePath = RelativeImagePath;
+                dbContext.SaveChanges();
+            }
+
+                return RedirectToAction("Index");
         }
 
         //public IActionResult Edit(int id)
