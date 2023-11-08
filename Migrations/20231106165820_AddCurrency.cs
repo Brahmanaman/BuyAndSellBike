@@ -10,12 +10,12 @@ namespace BuyAndSellBike.Migrations
                 name: "Currencies",
                 columns: table => new
                 {
-                    ID = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Currencies", x => x.ID);
+                    table.PrimaryKey("PK_Currencies", x => x.Id);
                 });
         }
 

@@ -1,4 +1,5 @@
 ﻿@model BuyAndSellBike.Models.ViewModel.ModelViewModel;
+@using BuyAndSellBike.Extensions; 
 @{
     ViewData["Title"] = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -13,7 +14,7 @@
             <label asp-for="Makes" class="form-label"></label>
         </div>
         <div class="col-4">
-            <select asp-for="Model.MakeId" asp-items="Model.ConvertSelectListItem(Model.Makes)"></select>
+            <select asp-for="Model.MakeId" asp-items="Model.Makes.toSelectList()"></select>
         </div>
      </div>
 

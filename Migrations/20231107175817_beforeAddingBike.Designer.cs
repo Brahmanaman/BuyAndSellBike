@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BuyAndSellBike.Migrations
 {
     [DbContext(typeof(BuyAndSellBikeDbContext))]
-    [Migration("20231106165037_AddBike")]
-    partial class AddBike
+    [Migration("20231107175817_beforeAddingBike")]
+    partial class beforeAddingBike
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,57 +21,17 @@ namespace BuyAndSellBike.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("BuyAndSellBike.Models.Bike", b =>
+            modelBuilder.Entity("BuyAndSellBike.Models.Currency", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("Currency")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImagePath")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("MakeId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Mileage")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Model")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ModelId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Price")
-                        .HasColumnType("int");
-
-                    b.Property<string>("SellerEmal")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SellerName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SellerPhone")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Year")
-                        .HasColumnType("int");
-
-                    b.Property<string>("features")
+                    b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("MakeId");
-
-                    b.ToTable("Bikes");
+                    b.ToTable("Currencies");
                 });
 
             modelBuilder.Entity("BuyAndSellBike.Models.Make", b =>
@@ -319,17 +279,6 @@ namespace BuyAndSellBike.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("ApplicationUser");
-                });
-
-            modelBuilder.Entity("BuyAndSellBike.Models.Bike", b =>
-                {
-                    b.HasOne("BuyAndSellBike.Models.Make", "Make")
-                        .WithMany()
-                        .HasForeignKey("MakeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Make");
                 });
 
             modelBuilder.Entity("BuyAndSellBike.Models.Model", b =>

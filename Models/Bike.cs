@@ -11,7 +11,7 @@ namespace BuyAndSellBike.Models
         public int Id { get; set; }
         public Make Make { get; set; }
         public int MakeId { get; set; }
-        public int Model { get; set; }
+        public Model Model { get; set; }
         public int ModelId { get; set; }
         [Required]
         public int Year { get; set; }
@@ -20,7 +20,7 @@ namespace BuyAndSellBike.Models
         public string features { get; set; }
         [Required]
         public string SellerName { get; set; }
-        public string SellerEmal { get; set; }
+        public string SellerEmail { get; set; }
         [Required]
         public string SellerPhone { get; set; }
         [Required]
