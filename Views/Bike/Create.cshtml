@@ -32,6 +32,7 @@
         </div>
         <div class="col-4">
             <select class="form-control text-sm-center" asp-for="Bike.ModelId" asp-items="Model.Models.toSelectList()" ></select>
+            <span asp-validation-for="Bike.ModelId" class="text-danger"></span>
         </div>
     </div>
 
@@ -41,6 +42,7 @@
         </div>
         <div class="col-4">
             <input asp-for="Bike.Year" class="form-control" />
+            <span asp-validation-for="Bike.Year" class="text-danger"></span>
         </div>
     </div>
 
@@ -50,6 +52,7 @@
         </div>
         <div class="col-4">
             <input asp-for="Bike.Mileage" class="form-control" />
+            <span asp-validation-for="Bike.Mileage" class="text-danger"></span>
         </div>
     </div>
 
@@ -59,6 +62,7 @@
         </div>
         <div class="col-4">
             <input asp-for="Bike.Price" class="form-control" />
+            <span asp-validation-for="Bike.Price" class="text-danger"></span>
         </div>
     </div>
 
@@ -67,7 +71,8 @@
             <label asp-for="Bike.Currency" class="form-label"></label>
         </div>
         <div class="col-4">
-            <select class="form-control text-sm-center" asp-for="Bike.Currency" asp-items="Model.Currencies.toSelectList()"  ></select>
+            <select class="form-control text-sm-center" asp-for="Bike.Currency" asp-items="Model.Currencies.toSelectList()"></select>
+            <span asp-validation-for="Bike.Currency" class="text-danger"></span>
         </div>
     </div>
 
@@ -86,6 +91,7 @@
         </div>
         <div class="col-4">
             <input asp-for="Bike.SellerName" class="form-control" />
+            <span asp-validation-for="Bike.SellerName" class="text-danger"></span>
         </div>
     </div>
 
@@ -104,6 +110,7 @@
         </div>
         <div class="col-4">
             <input asp-for="Bike.SellerPhone" class="form-control" />
+            <span asp-validation-for="Bike.SellerPhone" class="text-danger"></span>
         </div>
     </div>
 
