@@ -51,7 +51,13 @@ namespace BuyAndSellBike.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreatePost()
         {
-            if (!ModelState.IsValid) return View(BikeVM);
+            if (!ModelState.IsValid)
+            {
+                BikeVM.Makes = dbContext.Makes.ToList();
+                BikeVM.Models = dbContext.Models.ToList();
+                BikeVM.Currencies = dbContext.Currencies.ToList(); 
+                return View(BikeVM);
+            }
             await dbContext.Bikes.AddAsync(BikeVM.Bike);
             await dbContext.SaveChangesAsync();
 
@@ -105,17 +111,17 @@ namespace BuyAndSellBike.Controllers
         //    return RedirectToAction("Index");
         //}
 
-        //[HttpPost]
-        //public IActionResult Delete(int id)
-        //{
-        //    Model model = dbContext.Models.Find(id);
-        //    if (model == null) return NotFound();
-        //    dbContext.Models.Remove(model);
-        //    dbContext.SaveChanges();
-        //    return RedirectToAction("Index");
-        //}
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+            Bike bike = dbContext.Bikes.Find(id);
+            if (bike == null) return NotFound();
+            dbContext.Bikes.Remove(bike);
+            dbContext.SaveChanges();
+            return RedirectToAction("Index");
+        }
 
-        
-        
+
+
     }
 }
