@@ -5,6 +5,7 @@ using System.Linq;
 using BuyAndSellBike.Models;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using System.Collections.Generic;
 
 namespace BuyAndSellBike.Controllers
 {
@@ -71,6 +72,13 @@ namespace BuyAndSellBike.Controllers
             dbContext.Models.Remove(model);
             dbContext.SaveChanges();
             return RedirectToAction("Index");
+        }
+
+        [AllowAnonymous]
+        [HttpGet("/api/models/{makeId}")]
+        public IEnumerable<Model> Models(int makeId)
+        {
+            return dbContext.Models.ToList().Where(x=>x.Id == makeId);
         }
 
     }
