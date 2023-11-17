@@ -412,3 +412,6 @@ F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Bike\Index.cshtml
 F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Bike\Create.cshtml.g.cs
 C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Bike\Create.cshtml.g.cs
 C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Bike\Index.cshtml.g.cs
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\cloudscribe.Pagination.Models.dll
+F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\cloudscribe.Web.Pagination.dll
+F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Shared\_paginationPartial.cshtml.g.cs

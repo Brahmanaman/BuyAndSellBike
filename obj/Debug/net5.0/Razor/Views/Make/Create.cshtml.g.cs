@@ -27,7 +27,7 @@ using BuyAndSellBike.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"10a6a0d2dac55f5a1dff5770e98687309d97e8ee", @"/Views/Make/Create.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3bce78806d205f1ba1f783179fff92456ba2cb00", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"35ebdde7badcb88c91819a7260eb834980a6536a", @"/Views/_ViewImports.cshtml")]
     public class Views_Make_Create : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<BuyAndSellBike.Models.Make>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("form-label"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

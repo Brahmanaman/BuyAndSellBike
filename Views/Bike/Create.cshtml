@@ -41,10 +41,11 @@
 <form method="post" asp-action="Create" enctype="multipart/form-data">
     <div class="form-group row">
         <div class="col-2">
-            <label asp-for="Makes" class="form-label"></label>
+            <label asp-for="Bike.MakeId" class="form-label">Make</label>
         </div>
         <div class="col-4">
             <select class="form-control text-sm-center" asp-for="Bike.MakeId" asp-items="Model.Makes.toSelectList()" id="Make"></select>
+            <span asp-validation-for="Bike.MakeId" class="text-danger"></span>
         </div>
 
         <div class="col-2">
@@ -57,7 +58,7 @@
 
     <div class="form-group row">
         <div class="col-2">
-            <label asp-for="Models" class="form-label"></label>
+            <label asp-for="Bike.ModelId" class="form-label">Model</label>
         </div>
         <div class="col-4">
             <select class="form-control text-sm-center" asp-for="Bike.ModelId" asp-items="Model.Models.toSelectList()" id="Model"></select>
