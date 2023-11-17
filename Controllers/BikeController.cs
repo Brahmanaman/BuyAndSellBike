@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using System.Collections.Generic;
+using cloudscribe.Pagination.Models;
 
 using Microsoft.AspNetCore.Hosting;
 using System.IO;
@@ -35,11 +35,28 @@ namespace BuyAndSellBike.Controllers
                 Bike = new Models.Bike(),
             };
         }
-        public IActionResult Index()
+        public IActionResult Index2()
         {
             var bike = dbContext.Bikes.Include(x => x.Make).Include(x=>x.Model);
             return View(bike.ToList());
-            
+        }
+
+        public IActionResult Index(int pageNumber=1, int pageSize = 1)
+        {
+            //pagination logic
+            int ExcludeRecords = (pageSize * pageNumber) - pageSize;
+
+
+            var bike = dbContext.Bikes.Include(x => x.Make).Include(x => x.Model).Skip(ExcludeRecords).Take(pageSize);
+
+            var result = new PagedResult<Bike>
+            {
+                Data = bike.AsNoTracking().ToList(),
+                TotalItems = dbContext.Bikes.Count(),
+                PageNumber = pageNumber,
+                PageSize = pageSize,
+            };
+            return View(result);
         }
 
         public IActionResult Create()

@@ -8,13 +8,11 @@ namespace BuyAndSellBike.Models
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Provide Make")]
         public Make Make { get; set; }
 
         [RegularExpression("^[1-9]*$", ErrorMessage = "Select Model")]
         public int MakeId { get; set; }
 
-        [Required(ErrorMessage ="Provide Model")]
         public Model Model { get; set; }
 
         [RegularExpression("^[1-9]*$", ErrorMessage ="Select Model")]
