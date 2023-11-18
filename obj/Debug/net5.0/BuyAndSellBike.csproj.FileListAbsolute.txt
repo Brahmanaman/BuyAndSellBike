@@ -415,3 +415,7 @@ C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Bi
 F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\cloudscribe.Pagination.Models.dll
 F:\Code Playground\BuyAndSellBike\bin\Debug\net5.0\cloudscribe.Web.Pagination.dll
 F:\Code Playground\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Shared\_paginationPartial.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\cloudscribe.Pagination.Models.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\bin\Debug\net5.0\cloudscribe.Web.Pagination.dll
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Shared\_paginationPartial.cshtml.g.cs
+C:\Users\TrafikSol\Documents\Aman\BuyAndSellBike\obj\Debug\net5.0\Razor\Views\Bike\Edit.cshtml.g.cs

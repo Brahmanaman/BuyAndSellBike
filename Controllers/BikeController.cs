@@ -35,24 +35,44 @@ namespace BuyAndSellBike.Controllers
                 Bike = new Models.Bike(),
             };
         }
-        public IActionResult Index2()
+       
+        [AllowAnonymous]
+        public IActionResult Index(string searchString, string sortOrder, int pageNumber=1, int pageSize = 1)
         {
-            var bike = dbContext.Bikes.Include(x => x.Make).Include(x=>x.Model);
-            return View(bike.ToList());
-        }
+            ViewBag.CurrentSortOrder = sortOrder;
+            ViewBag.CurrentFilter = searchString;
+            ViewBag.PriceSortParam = string.IsNullOrEmpty(sortOrder) ? "price_desc" : "";
 
-        public IActionResult Index(int pageNumber=1, int pageSize = 1)
-        {
             //pagination logic
             int ExcludeRecords = (pageSize * pageNumber) - pageSize;
 
+            var bike = from b in dbContext.Bikes.Include(x => x.Make).Include(x => x.Model)
+                       select b;
 
-            var bike = dbContext.Bikes.Include(x => x.Make).Include(x => x.Model).Skip(ExcludeRecords).Take(pageSize);
+            var BikeCount = bike.Count();
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                bike = bike.Where(b => b.Make.Name.Contains(searchString));
+            }
+
+            //sorting logic
+            switch(sortOrder)
+            {
+                case "price_desc":
+                    bike = bike.OrderByDescending(b => b.Price);
+                    break;
+                default:
+                    bike = bike.OrderBy(b => b.Price);
+                    break;
+            }
+
+            bike = bike.Skip(ExcludeRecords).Take(pageSize);
 
             var result = new PagedResult<Bike>
             {
                 Data = bike.AsNoTracking().ToList(),
-                TotalItems = dbContext.Bikes.Count(),
+                TotalItems =BikeCount,
                 PageNumber = pageNumber,
                 PageSize = pageSize,
             };
@@ -76,8 +96,15 @@ namespace BuyAndSellBike.Controllers
                 return View(BikeVM);
             }
             await dbContext.Bikes.AddAsync(BikeVM.Bike);
+            UploadImageIfAvailable();
             await dbContext.SaveChangesAsync();
 
+            dbContext.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        private void UploadImageIfAvailable()
+        {
             //save bike logic
             //Get bike id we have saved in database
             var BikeId = BikeVM.Bike.Id;
@@ -90,7 +117,7 @@ namespace BuyAndSellBike.Controllers
 
             var savedBike = dbContext.Bikes.Find(BikeId);
 
-            if(files.Count != 0)
+            if (files.Count != 0)
             {
                 var ImagePath = @"images\bike\";
                 var Extension = Path.GetExtension(files[0].FileName);
@@ -105,28 +132,61 @@ namespace BuyAndSellBike.Controllers
 
                 //set image path to database
                 savedBike.ImagePath = RelativeImagePath;
-                dbContext.SaveChanges();
-            }
 
-                return RedirectToAction("Index");
+            }
         }
 
-        //public IActionResult Edit(int id)
-        //{
-        //    //ModelVM.Model = dbContext.Models.Include(m => m.Make).SingleOrDefault(m => m.Id == id);
-        //    ModelVM.Model = dbContext.Models.Find(id);
-        //    if (ModelVM.Model == null) return NotFound();
-        //    return View(ModelVM);
-        //}
 
-        //[HttpPost, ActionName("Edit")]
-        //public IActionResult EditPost(ModelViewModel data)
-        //{
-        //    if (!ModelState.IsValid) return View(data);
-        //    dbContext.Models.Update(data.Model);
-        //    dbContext.SaveChanges();
-        //    return RedirectToAction("Index");
-        //}
+        public IActionResult Edit(int id)
+        {
+            BikeVM.Bike = dbContext.Bikes.SingleOrDefault(b => b.Id == id);
+
+            //filter the models associated to the make of bike
+            BikeVM.Models = dbContext.Models.Where(m => m.MakeId == BikeVM.Bike.MakeId);
+            if(BikeVM.Bike == null)
+            {
+                return NotFound();
+            }
+
+            return View(BikeVM);
+        }
+
+        [AllowAnonymous ]
+        public IActionResult View(int id)
+        {
+            BikeVM.Bike = dbContext.Bikes.SingleOrDefault(b => b.Id == id);
+            if (BikeVM.Bike == null)
+            {
+                return NotFound();
+            }
+
+            return View(BikeVM);
+        }
+
+
+
+
+
+        [HttpPost, ActionName("Edit")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EditPost()
+        {
+            if (!ModelState.IsValid)
+            {
+                BikeVM.Makes = dbContext.Makes.ToList();
+                BikeVM.Models = dbContext.Models.ToList();
+                BikeVM.Currencies = dbContext.Currencies.ToList();
+                return View(BikeVM);
+            }
+            dbContext.Bikes.Update(BikeVM.Bike);
+            UploadImageIfAvailable();
+            await dbContext.SaveChangesAsync();
+
+            dbContext.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+
 
         [HttpPost]
         public IActionResult Delete(int id)

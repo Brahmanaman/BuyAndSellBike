@@ -68,7 +68,7 @@ namespace BuyAndSellBike
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Bike}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
